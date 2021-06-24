@@ -9,7 +9,7 @@ function App() {
     <div className='App'>
       <Header />
       <div className='app_body'>
-        <SideBar />
+        <SideBar /> //this is where the inbox, starred, compose options are going to be implemented
       
         <EmailLists />
       </div>
