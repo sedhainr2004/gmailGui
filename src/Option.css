@@ -1,0 +1,29 @@
+.option{
+ display: flex;
+ align-items: center;
+ padding: 0px 20px;
+ min-width: 220px;
+ border-bottom-width: 2px;
+ cursor: pointer;
+ border-width: 0;
+ color: grey;
+
+ 
+
+
+}
+.option--selected{
+ background-color: whitesmoke;
+ border-width:  3px;
+
+}
+
+.option:hover {
+ background-color: whitesmoke;
+ border-width: 3px;
+}
+.option >h4 {
+ font-size: 14px;
+ margin-left: 14px;
+}
+
